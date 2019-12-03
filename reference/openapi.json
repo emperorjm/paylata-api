@@ -78,7 +78,7 @@
     },
     "/merchant/checkout": {
       "post": {
-        "summary": "Execute a checkout request",
+        "summary": "01 Execute a checkout request",
         "description": "Allows the merchant to issue a checkout request on behalf of their customer",
         "requestBody": {
           "description": "Customer data and statistics along with details of the customer's order",
@@ -144,7 +144,7 @@
     },
     "/merchant/checkout/complete": {
       "post": {
-        "summary": "Complete PayLata Order",
+        "summary": "02 Complete PayLata Order",
         "description": "This route is called by the merchant after the customer is redirected back to their platform for them to complete the PayLata process and complete the customer's order",
         "requestBody": {
           "description": "Values returned to the redirect link connected to the merchant account record needed to confirm the results of the PayLata process executed by the customer",
