@@ -236,7 +236,10 @@
           "client_secret": {
             "type": "string"
           }
-        }
+        },
+        "x-tags": [
+          "Schemas"
+        ]
       },
       "CompleteCheckout": {
         "required": [
@@ -258,7 +261,10 @@
             "type": "integer",
             "example": 7
           }
-        }
+        },
+        "x-tags": [
+          "Schemas"
+        ]
       },
       "InvalidCheckout": {
         "type": "object",
@@ -420,7 +426,10 @@
             "type": "string",
             "description": "Order item product_code"
           }
-        }
+        },
+        "x-tags": [
+          "Schemas"
+        ]
       },
       "OrderItem": {
         "required": [
@@ -460,7 +469,11 @@
             "maxLength": 200,
             "type": "string"
           }
-        }
+        },
+        "x-tags": [
+          "Schemas"
+        ],
+        "description": ""
       },
       "ErrorResponse": {
         "required": [
@@ -471,7 +484,10 @@
           "error": {
             "$ref": "#/components/schemas/ErrorResponse_error"
           }
-        }
+        },
+        "x-tags": [
+          "Schemas"
+        ]
       },
       "CheckoutRequest": {
         "required": [
@@ -485,7 +501,10 @@
           "shopper": {
             "$ref": "#/components/schemas/CheckoutRequest_shopper"
           }
-        }
+        },
+        "x-tags": [
+          "Schemas"
+        ]
       },
       "inline_response_200": {
         "type": "object",
