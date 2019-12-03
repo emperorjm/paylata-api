@@ -4,7 +4,7 @@ tags: [Checkout]
 
 # Redirect to PayLata
 
-After receiving the "**checkout_id**" and "**uuid**" the merchant will then redirect the customer to the PayLata platform using the "**checkout_id**" and "**uuid**" as parameters (/merchant/<checkout_id>/<uuid>).
+After receiving the "**checkout_id**" and "**uuid**" the merchant will then redirect the customer to the PayLata platform using the "**checkout_id**" and "**uuid**" as parameters (https://paylata.com/merchant/<**checkout_id**>/<**uuid**>).
 
 ## Login
 
