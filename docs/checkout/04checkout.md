@@ -1,8 +1,8 @@
 ---
-tags: [04 - Docs]
+tags: [Checkout]
 ---
 
-# Checkout
+# Execute Checkout Request
 
 When a merchant receives the "**access_token**" the next step is to send a "**POST**" request to the "**/api/v1/merchant/checkout**" route within the PayLata platform.
 
@@ -94,4 +94,4 @@ On success the response would return a JSON object with the "**checkout_id**" an
 }
 ```
 
-The merchant will then redirect the customer to the PayLata platform with the "checkout_id" and "uuid" as parameters ("http://www.paylata.com/merchant/checkout/<checkout_id>/<uuid>").
+The merchant will then redirect the customer to the PayLata platform with the "checkout_id" and "uuid" as parameters ("<http://www.paylata.com/merchant/checkout/>\<checkout_id>/<uuid>").
