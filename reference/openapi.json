@@ -2,10 +2,9 @@
   "openapi": "3.0.0",
   "info": {
     "title": "PayLata API",
-    "description": "An API that allows merchants to integrate PayLata into their web platform",
+    "description": "An API that allows merchants to integrate PayLata into their web platform using the 'Express' merchant type",
     "termsOfService": "https://paylata.com/terms",
     "contact": {
-      "name": "Adrian Thompson",
       "url": "https://paylata.com",
       "email": "support@paylata.com"
     },
@@ -29,9 +28,9 @@
     "/auth/token": {
       "post": {
         "summary": "Generate access token",
-        "description": "This route generates an access token which is required to access all other available routes within the API",
+        "description": "This route generates an \"**access token**\" which is required to access all other available routes within the API. See the \"**Authentication**\" page to see more details",
         "requestBody": {
-          "description": "Login credentails linked to the client's Express merchant record",
+          "description": "Login credentails linked to the client's Express merchant record. See \"**Introduction**\" page for more details on accessing the client id and secret key",
           "content": {
             "application/json": {
               "schema": {
@@ -42,7 +41,7 @@
         },
         "responses": {
           "200": {
-            "description": "Access token successfully generated. The JSON response contains the \"access_token\" which should be used as a \"Bearer\" token within an \"Authorization\" header to access any endpoints made available within the PayLata platform",
+            "description": "Access token successfully generated. The JSON response contains the \"**access_token**\" which should be used as a \"**Bearer**\" token within an \"**Authorization**\" header to access any endpoints made available within the PayLata platform",
             "content": {
               "application/json": {
                 "schema": {
@@ -71,7 +70,10 @@
               }
             }
           }
-        }
+        },
+        "tags": [
+          "Authentication"
+        ]
       }
     },
     "/merchant/checkout": {
@@ -475,12 +477,6 @@
           },
           "shopper": {
             "$ref": "#/components/schemas/CheckoutRequest_shopper"
-          },
-          "items": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/OrderItem"
-            }
           }
         }
       },
@@ -666,6 +662,12 @@
           },
           "shipping": {
             "$ref": "#/components/schemas/CheckoutRequest_order_shipping"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderItem"
+            }
           }
         }
       },

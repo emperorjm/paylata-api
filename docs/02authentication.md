@@ -1,5 +1,5 @@
 ---
-tags: [02 - Docs]
+tags: [Authentication]
 ---
 
 # Authentication
