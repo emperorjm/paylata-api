@@ -6,6 +6,8 @@ tags: [02 - Docs]
 
 The "**PayLata**" API uses a "**Secret Key**" along with a "**Client Id**" in order to authenticate a merchant to then generate an "**access token**" which is used to access all other accessible routes within the PayLata platform.
 
+The API secret key should not be made public and should be kept secure and therefore should not be placed in open repositories or client side code. All requests should be made over "**HTTPS**" to securely transit the secret key to the PayLata platform.
+
 In order to generate an **access token** a **POST** request should be submitted to the "**/auth/token**" route with a **JSON** request body containing the "**client id**" and "**secret key**":
 
 ```json
