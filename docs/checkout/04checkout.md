@@ -94,4 +94,4 @@ On success a JSON response will be returned with a "**checkout_id**" and "**uuid
 }
 ```
 
-The merchant will then redirect the customer to the PayLata platform using the "**checkout_id**" and "**uuid**" as parameters ("<http://www.paylata.com/merchant/3/JDTJHRDJD"). See the "**Redirect to PayLata**" page for more details.
+The merchant will then redirect the customer to the PayLata platform using the "**checkout_id**" and "**uuid**" as parameters (http://www.paylata.com/merchant/3/JDTJHRDJD). See the "**Redirect to PayLata**" page for more details.
