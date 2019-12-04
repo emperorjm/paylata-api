@@ -82,7 +82,7 @@ We need the merchant to send as much details as possible about the customer incl
 }
 ```
 
-On success the a JSON response will be returned with a "**checkout_id**" and "**uuid**":
+On success a JSON response will be returned with a "**checkout_id**" and "**uuid**":
 
 ```json
 {
