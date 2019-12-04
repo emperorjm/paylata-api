@@ -2,7 +2,7 @@
 tags: [Checkout]
 ---
 
-# Execute Checkout Request
+# 01 - Execute Checkout Request
 
 When a merchant receives an "**access_token**" the next step is to send a "**POST**" request to the "**/api/v1/merchant/checkout**" route within the PayLata platform.
 

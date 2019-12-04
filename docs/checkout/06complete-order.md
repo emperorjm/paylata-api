@@ -2,7 +2,7 @@
 tags: [Checkout]
 ---
 
-# Complete PayLata Order
+# 03 - Complete PayLata Order
 
 The customer will be redirected back to the merchant website using the "**redirect**" url set for the merchant record the secret key is linked to. The "**checkout_id**", "**checkout_uuid**" and "**invoice_id**" will be added as parameters in the form (**?checkout_id=<checkout_id>&checkout_uuid=<checkout_uuid>&invoice_id=<invoice_id>**). After redirecting back to the Merchant’s website the merchant still needs to execute one final call to check the final status of the PayLata process which will determine if the customer's order should be completed or not.
 
