@@ -78,7 +78,7 @@
     },
     "/merchant/checkout": {
       "post": {
-        "summary": "Execute a checkout request",
+        "summary": "Checkout request",
         "description": "Allows the merchant to issue a checkout request on behalf of their customer",
         "requestBody": {
           "description": "Customer data and statistics along with details of the customer's order",
