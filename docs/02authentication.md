@@ -8,7 +8,7 @@ The "**PayLata**" API uses a "**Secret Key**" along with a "**Client Id**" in or
 
 The API secret key should not be made public and should be kept secure and therefore should not be placed in open repositories or client side code. All requests should be made over "**HTTPS**" to securely transmit the secret key to the PayLata platform.
 
-In order to generate an **access token** a **POST** request should be submitted to the "**/auth/token**" route with a **JSON** request body containing the "**client id**" and "**secret key**":
+In order to generate an **access token** a **POST** request should be submitted to the "**/api/v1/auth/token**" route with a **JSON** request body containing the "**client id**" and "**secret key**":
 
 ```json
 {
