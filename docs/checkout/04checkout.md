@@ -20,14 +20,14 @@ We need the merchant to send as much details as possible about the customer incl
     "shipping": {
       "pickup": false,
       "tracking": {
-        "uri": "string",
-        "number": "string",
-        "carrier": "string"
+        "uri": "https://www.amazon.com/progress-tracker/package/ref=ppx_yo_dt_b_track00",
+        "number": "0865086508GSFS",
+        "carrier": "Amazon"
       },
       "address": {
         "line1": "1 George st",
-        "line2": "string",
-        "city": "string",
+        "line2": "",
+        "city": "Sydney",
         "state": "NSW",
         "postal_code": "2000",
         "country": "AU",
@@ -37,29 +37,29 @@ We need the merchant to send as much details as possible about the customer incl
     },
     "items": [
       {
-        "name": "string",
+        "name": "Samsung Earbuds",
         "amount": 200.57,
-        "reference": "string",
-        "description": "string",
-        "quantity": 0,
-        "type": "string",
-        "product_code": "string"
+        "reference": "",
+        "description": "True Wireless Earbuds, Black",
+        "quantity": 1,
+        "type": "sku",
+        "product_code": "samsung_earbud_01"
       }
     ]
   },
   "shopper": {
-    "title": "string",
-    "first_name": "string",
-    "last_name": "string",
-    "middle_name": "string",
-    "phone": "string",
-    "email": "user@example.com",
-    "birth_date": "2017-11-21",
-    "gender": "string",
+    "title": "Mr",
+    "first_name": "John",
+    "last_name": "Doe",
+    "middle_name": "",
+    "phone": "186598698",
+    "email": "johndoe@example.com",
+    "birth_date": "1997-11-21",
+    "gender": "male",
     "billing_address": {
       "line1": "1 George st",
-      "line2": "string",
-      "city": "string",
+      "line2": "",
+      "city": "Sydney",
       "state": "NSW",
       "postal_code": "2000",
       "country": "AU",
@@ -71,7 +71,7 @@ We need the merchant to send as much details as possible about the customer incl
       "has_previous_purchases": true,
       "last_login": "2017-11-21",
       "currency": "SGD",
-      "sales_total_count": 0,
+      "sales_total_count": 5,
       "sales_total_amount": 4500.00,
       "sales_avg_amount": 50.00,
       "sales_max_amount": 100.14,
