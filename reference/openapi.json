@@ -197,6 +197,16 @@
               }
             }
           },
+          "409": {
+            "description": "The paylata process for this order was already completed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
           "500": {
             "description": "A system error occurred",
             "content": {
