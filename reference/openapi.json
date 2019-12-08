@@ -22,6 +22,10 @@
     {
       "url": "https://paylata.com/api/v1",
       "description": "PayLata Production Server"
+    },
+    {
+      "url": "https://developer.paylata.com/api/v1",
+      "description": "PayLata Sandbox Server"
     }
   ],
   "paths": {
